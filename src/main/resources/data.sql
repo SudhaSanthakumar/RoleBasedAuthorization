@@ -1,3 +1,6 @@
+--for the password using online bcrypt encoder, encode your password 
+--and then use it here prefixed with {bcrypt}
+
 INSERT INTO USER (user_id,user_name,password,role) VALUES (
    1, 'Sam','{bcrypt}$2y$12$946HuJr2jwqLLe5wqwJBJeupc.TS/3MdUFXDnqGpbVh8VfW5T6dZW','admin');
 
